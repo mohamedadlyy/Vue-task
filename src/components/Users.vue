@@ -78,31 +78,31 @@ methods:{
   
 },
  mounted () {
-    this.getUsers();   
-    this.userid = this.$route.params.id || 1
+    this.getUsers(); 
+    this.userid = this.$route.params.id || 1;
   },
 }
 </script>
 
 <style lang="scss" scoped>
-.user-component{
-      
-}
-.user-component h2{padding-top: 50px;}
+@import'./style.scss';
+.user-component{ min-height: 75vh;}
+.user-component h2{padding-top: $padding-top-50;}
 .user-name{
     font-size: 20px;
     margin: 10px;
-    font-family: monospace;
-    transition: all ease-in-out .5s;
+    font-family: $font;
+    transition: $transition;
 }
 .user-name:hover{
     cursor: pointer;
     color: #f55d78;
-
 }
 .users{
-    border: 1px solid;
-}
-.load-more{margin-bottom: 50px;}
-.wrapper{margin-top: 50px;}
+        border: $border;
+        box-shadow: $box-shadow;
+        min-height: 100px;}
+
+.load-more{margin-bottom: $margin-bottom-50;}
+.wrapper{margin-top: $margin-top-50}
 </style>

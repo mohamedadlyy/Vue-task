@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import'./style.scss';
+
 .footer {
  background:#192027;
  text-align:center;
@@ -33,7 +35,7 @@ export default {
  margin:0;
  line-height:26px;
  font-size:15px;
- color:#999
+ color:$base-color
 }
 .footer p a {
  color:#5867dd

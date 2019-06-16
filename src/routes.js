@@ -11,7 +11,7 @@ export const routes = [
 // redirect
 {path:'/home',redirect:{name : 'home'}},
 {path:'/about',redirect:{name : 'about'}},
-{path:'/users/a',redirect:'/users/:id'},
+
 
 //catch
 {path:'*',redirect:{name : 'home'}},

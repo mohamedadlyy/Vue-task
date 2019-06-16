@@ -4,7 +4,10 @@ import { routes } from './routes';
 
 import VueRouter from 'vue-router';
 import BootstrapVue from 'bootstrap-vue';
-import '../src/components/style.scss';
+
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
+Vue.component('icon', Icon)
 
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);

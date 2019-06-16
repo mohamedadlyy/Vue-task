@@ -84,8 +84,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import'./style.scss';
+
 .container-fluid{padding: 0;overflow-x: hidden;}
-h2{position: absolute;margin-left: 47%;margin-top: 50px;color: #ffff;}
-.card{margin-top:50px;margin-bottom: 50px;border: none;}
+h2{
+    position: absolute;
+    margin-left: 47%;
+    margin-top: $margin-top-50;
+    color: #ffff;}
+.card{
+      margin-top: $margin-top-50;
+      margin-bottom: $margin-bottom-50;
+      border: none;}
 
 </style>

@@ -12,8 +12,6 @@
 export default {
   name: 'User',
   components: {
-    
-   
   },
   props: ['user','userid'],
 
@@ -21,6 +19,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.img-wrapper{width:400px;border: 1px solid;margin-bottom: 50px}
-.user-info{margin-bottom: 20px;border: 1px solid;padding: 5px;background-color: #ddd;}
+@import'./style.scss';
+
+.img-wrapper{width:400px;
+            border: $border ;
+            margin-bottom: $margin-bottom-50;
+            box-shadow: $box-shadow}
+.user-info{margin-bottom: 20px;
+           border: $border;
+           padding: 5px;
+           font-family: $font;
+           background-color: $base-color;}
 </style>

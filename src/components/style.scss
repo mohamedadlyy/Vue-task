@@ -1,2 +1,12 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+
+$base-color: #dddd;
+$border: 1px solid;
+$transition:all ease-in-out .5s;
+$box-shadow: 7px -1px 20px 20px #ddd;
+$font:monospace;
+$padding-top-50:50px;
+$padding-bottom-50:50px;
+$margin-top-50:50px;
+$margin-bottom-50:50px;
